@@ -7,6 +7,8 @@ authors = ["Ihar Shauchuk <shauchuk.ihar@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.0.3"
+djangorestframework = "^3.13.1"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
 
