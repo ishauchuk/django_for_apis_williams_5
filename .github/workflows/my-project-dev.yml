@@ -27,7 +27,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Linters
       run: |
-        flake8 apps       
+        flake8
     - name: Run Tests
       run: |
         python manage.py test
